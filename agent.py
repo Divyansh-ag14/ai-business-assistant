@@ -34,9 +34,6 @@ llm_reasoning = ChatOpenAI(model="gpt-4", temperature=0)
 
 embedding_model = OpenAIEmbeddings()
 
-#
-
-
 # STEP 3: Load and Chunk PDFs
 # ---------------------------
 data_folder = "data"
